@@ -3,15 +3,15 @@ import { SITE } from '~/config.js';
 import { getCanonical, getHomePermalink } from '~/utils/permalinks';
 import Layout from '~/layouts/PageLayout.astro';
 
-import Homepage from '~/components/widgets/Studium/Exmatrikulieren.astro';
+import Feature from '~/components/widgets/Fachschaft/Contact.astro';
 
 const meta = {
-	title: SITE.title,
+	title: "Kontakt",
 	description: SITE.description,
 	canonical: getCanonical(getHomePermalink()),
 };
 ---
 
 <Layout {meta}>
-	<Homepage />
+	<Feature />
 </Layout>
