@@ -1,20 +1,27 @@
 ---
 import '~/assets/styles/calendar.css';
-import { convertTimestamp2Date, getDay, getFormattedDate } from '../../utils/utils';
+import { convertTimestamp2Date } from '../../utils/utils';
 import { getLocationOnMap } from '../../utils/utils';
 
 import { Icon } from 'astro-icon/components';
+import type { monthsToQuarters } from 'date-fns';
 
 const events = [
 	{
 		title: 'Orientierungswoche (OWO)',
-		date: 1456813856559,
-		location: 'Dolivo',
+		date: 1759993200011,
+		location: 'S4|10',
+		month: 'Oktober',
+		day: 9,
+		time: '9:00',
 	},
 	{
-		title: '2Orientierungswoche (OWO)',
-		date: 1456813856559,
-		location: 'Dolivo2',
+		title: 'Orientierungswoche (OWO)',
+		date: 1759993200011,
+		location: 'S4|10',
+		month: 'Oktober',
+		day: 10,
+		time: '9:00',
 	},
 ];
 ---
@@ -22,11 +29,13 @@ const events = [
 	<div class="cal" ng-app="calApp" ng-controller="calCtrl">
 		<div class="cal-heading">Upcoming Events</div>
 		{
-			events.map(({ title, date, location }) => (
+			events.map(({ title, date, location, month, day, time }) => (
 				<div class="cal-event">
 					<div class="cal-event-tile">
-						<div class="cal-event-tile-date">{convertTimestamp2Date(date, "d")}</div>
-						<div class="cal-event-tile-month">{convertTimestamp2Date(date, "MMM")}</div>
+						{/* <div class="cal-event-tile-date">{convertTimestamp2Date(date, "d")}</div> */}
+						{/* <div class="cal-event-tile-month">{convertTimestamp2Date(date, "MMM")}</div> */}
+						<div class="cal-event-tile-date">{day}</div>
+						<div class="cal-event-tile-month">{month}</div>
 					</div>
 					<div class="cal-event-desc">
 						<div class="cal-event-title">
@@ -34,7 +43,7 @@ const events = [
 						</div>
 						<div class="cal-event-time">
 							<Icon name="mdi:date-range" class="w-5 h-5" />
-							{convertTimestamp2Date(date, "h:mm a, EEE d MMM")}
+							{time}, {day}. {month}
 							<!--{{ event.date | date:'h:mm a, EEE d MMM'}} -->
 						</div>
 						<div class="cal-event-location">
