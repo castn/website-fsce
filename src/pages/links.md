@@ -11,17 +11,18 @@ Eine unvollständige Liste aller Tools und Dienste, welche dir als Student der T
 
 ### Allgemein
 
-| Name                  | Beschreibung                    | Link |
-|:----:                 |:------------:                   |:----:|
-| **TU Moodle**         | a                               | https://moodle.tu-darmstadt.de/my/ |
-| **Informatik Moodle** |                                 | https://moodle.informatik.tu-darmstadt.de/my/ |
-| **Sharelatex**        |                                 | https://sharelatex.tu-darmstadt.de/project |
-| **IDM-Portal**        |                                 | https://www.idm.tu-darmstadt.de/idmPortal/idmPortal |
-| **GitLab**            |                                 | https://git.rwth-aachen.de/ |
-| **Element**           |                                 | https://element.matrix.tu-darmstadt.de/#/welcome |
-| **TU Webmail**        | Studentisches Mailportal der TU | https://webmail-stud.hrz.tu-darmstadt.de/roundcube/ |
-| **ULB Büchersuche**   |                                 | https://hds.hebis.de/ulbda/Search/Results |
-| **GigaMove 2.0**      |                                 | a |
+| Name                  | Beschreibung                                            | Link |
+|:----:                 |:------------:                                           |:----:|
+| **TU Moodle**         | Hier findet ihr alle Unterlagen zu Vorlesungen          | https://moodle.tu-darmstadt.de/my/ |
+| **Informatik Moodle** | Wie das TU Moodle nur von den Informatikern             | https://moodle.informatik.tu-darmstadt.de/my/ |
+| **Sharelatex**        | Wie Google Docs für LaTeX (einfache Zusammenarbeit)     | https://sharelatex.tu-darmstadt.de/project |
+| **IDM-Portal**        | Alles rund um deine Identitäten an der Uni              | https://www.idm.tu-darmstadt.de/idmPortal/idmPortal |
+| **GitLab**            | GitHub aber 'lokal' gehostet (Version Control für Code) | https://git.rwth-aachen.de/ |
+| **Hessenbox**         | File-hosting Platform mit 30GB Speicher umsonst         | https://hessenbox.tu-darmstadt.de/ |
+| **Element**           | Discord der Uni (Richtung Slack)                        | https://element.matrix.tu-darmstadt.de/#/welcome |
+| **TU Webmail**        | Studentisches Mailportal der TU                         | https://webmail-stud.hrz.tu-darmstadt.de/roundcube/ |
+| **ULB Büchersuche**   | Katalog aller Bücher in der ULB (Druck und Online)      | https://hds.hebis.de/ulbda/Search/Results |
+| **GigaMove 2.0**      | Versenden von großen Dateien, angeboten von der RWTH    | https://gigamove.rwth-aachen.de/ |
 
 ## Angebote von Fachschaften
 
@@ -34,15 +35,16 @@ Eine unvollständige Liste aller Tools und Dienste, welche dir als Student der T
 | **Etit Forum**                    | Ein von der Fachschaft Etit betriebenes Forum mit Altklausuren, Formelsammlungen und Gedächnisprotokollen | https://forum.fs-etit.de/login |
 | **TU Darmstadt Student Hub**      | Überblick über Discord-Server mit Bezug zur TU (stud-Mail erforderlich)                                   | https://discord.gg/JUCns6f7vT |
 | **tud_geekhub**                   | Ein von Informatikern betriebener Discord-Server für Fachliches und Freizeit                              | https://discord.gg/uTQr2Zu |
-| **TU Master Informatik**          | Ein von Informatikern betriebener Discord-Server für Master-Studenten                                     | https://discord.gg/BE9dWtH4rR |
+| **TU Master Informatik**          | Ein von Informatikern betriebener Discord-Server für Master-Studenten/Module                              | https://discord.gg/BE9dWtH4rR |
 
 ### Hilfreiche Webseiten der TU
 
-| Name                | Beschreibung                                                 | Link |
-|:----:               |:------------:                                                |:----:|
-| **Campus Karte**    |                                                              | https://www.tu-darmstadt.de/universitaet/campus/index.de.jsp |
-| **Campus-Software** | Software die von der Uni umsonst zur Verfügung gestellt wird | https://www.hrz.tu-darmstadt.de/services/it_services/campus_software/index.de.jsp |
-| **Campus Navi**     | Hilft bei der Navigierung                                    | https://www.sight-board.de/tu-darmstadt/ |
+| Name                      | Beschreibung                                                 | Link |
+|:----:                     |:------------:                                                |:----:|
+| **Campus Karte**          |                                                              | https://www.tu-darmstadt.de/universitaet/campus/index.de.jsp |
+| **Campus-Software**       | Software die von der Uni umsonst zur Verfügung gestellt wird | https://www.hrz.tu-darmstadt.de/services/it_services/campus_software/index.de.jsp |
+| **Campus Navi**           | Hilft bei der Navigierung                                    | https://www.sight-board.de/tu-darmstadt/ |
+| **TU Newsletter und RSS** | Alle Ankündigungen der Uni                                   | https://www.tu-darmstadt.de/universitaet/aktuelles_meldungen/newsletter_und_rss/index.de.jsp |
 
 ### Anleitungen
 
@@ -81,4 +83,3 @@ Eine unvollständige Liste aller Tools und Dienste, welche dir als Student der T
 |   **SB**    | **A**                                           |                   https://www.fachschaft.informatik.tu-darmstadt.de/de/                   |
 |             | **Lehramt**                                     |             https://www.lag.fs.tu-darmstadt.de/fachschaftlag/wilkommen.de.jsp             |
 |             | **IST**                                         |                                  https://www.fs-ist.de/                                   |
-
